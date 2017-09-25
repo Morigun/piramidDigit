@@ -1,0 +1,5 @@
+C:\MyDOC\Проекты\C#\Developer\piramidDigit\piramidDigit\obj\Debug\ResolveAssemblyReference.cache
+C:\MyDOC\Проекты\C#\Developer\piramidDigit\piramidDigit\bin\Debug\piramidDigit.exe
+C:\MyDOC\Проекты\C#\Developer\piramidDigit\piramidDigit\bin\Debug\piramidDigit.pdb
+C:\MyDOC\Проекты\C#\Developer\piramidDigit\piramidDigit\obj\Debug\piramidDigit.exe
+C:\MyDOC\Проекты\C#\Developer\piramidDigit\piramidDigit\obj\Debug\piramidDigit.pdb
