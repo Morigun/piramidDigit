@@ -3,3 +3,8 @@ C:\MyDOC\Проекты\C#\Developer\piramidDigit\piramidDigit\bin\Debug\piramid
 C:\MyDOC\Проекты\C#\Developer\piramidDigit\piramidDigit\bin\Debug\piramidDigit.pdb
 C:\MyDOC\Проекты\C#\Developer\piramidDigit\piramidDigit\obj\Debug\piramidDigit.exe
 C:\MyDOC\Проекты\C#\Developer\piramidDigit\piramidDigit\obj\Debug\piramidDigit.pdb
+D:\Projects\SharpDeveloper\Developer\piramidDigit\piramidDigit\bin\Debug\piramidDigit.exe
+D:\Projects\SharpDeveloper\Developer\piramidDigit\piramidDigit\bin\Debug\piramidDigit.pdb
+D:\Projects\SharpDeveloper\Developer\piramidDigit\piramidDigit\obj\Debug\piramidDigit.csprojResolveAssemblyReference.cache
+D:\Projects\SharpDeveloper\Developer\piramidDigit\piramidDigit\obj\Debug\piramidDigit.exe
+D:\Projects\SharpDeveloper\Developer\piramidDigit\piramidDigit\obj\Debug\piramidDigit.pdb

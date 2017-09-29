@@ -35,7 +35,7 @@ namespace piramidDigit
 			{
 				this.Height = height;
 				this.Layers = new int[height,(height*2)+1];
-				this.CountPath = (int)Math.Pow(2,this._height);
+				this.CountPath = (int)Math.Pow(2,this._height-1);
 				this._cp = new CheckedPath(this._height);
 				this.SetValueLayers();
 			}
@@ -95,7 +95,7 @@ namespace piramidDigit
 		/// </summary>
 		void SetValueLayers()
 		{			
-			Random rnd = new Random(10);
+			Random rnd = new Random(2);
 			for(int i = 0; i < this._height; i++)
 			{
 				for(int j = 0; j < (this._height*2) + 1; j++)
@@ -140,7 +140,7 @@ namespace piramidDigit
 		{
 			for(int i = this._height-1; i >= 0; i--)
 			{
-				for(int j = (this._height*2) + 1-1; j >= 0; j--)
+				for(int j = (this._height*2); j >= 0; j--)
 				{
 					Console.Write(Layers[i,j]);
 				}
@@ -162,11 +162,11 @@ namespace piramidDigit
 				sum = 0;
 				for(int x = this._height-1; x >= 0; x--)
 				{
-					sum = sum + Layers[x,iTecPos];								
-					iTecPos = this.GetNextEl(iTecPos, _cp.Path[count]);
-					count++;
-				}	
-				if (MaxPath < sum)
+                    iTecPos = this.GetNextEl(iTecPos, _cp.Path[count]);
+                    sum = sum + Layers[x,iTecPos-1];
+                    count++;
+				}
+                if (MaxPath < sum)
 				{
 					MaxPath = sum;
 					numPath = z;	
